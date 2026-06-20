@@ -1,5 +1,5 @@
-import parent from './parent.js'
+import app from "./test.js"
 
-const root = ReactDOM.createRoot(document.querySelector('#container'))
+let root = ReactDOM.createRoot(document.querySelector('#container'))
 
-root.render(parent())
+root.render(app())

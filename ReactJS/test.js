@@ -1,6 +1,5 @@
-const box = () => {
-
-    return React.createElement('div', { id: 'box' }, 'THIS IS BOX')
+const app =()=>{
+    return React.createElement("h1",null,"this is app")
 }
 
-export default box
+export default app
